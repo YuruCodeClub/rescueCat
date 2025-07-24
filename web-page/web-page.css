@@ -1,0 +1,67 @@
+html, body{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    margin: 0;
+    background-color: rgb(255, 248, 251);
+    color: rgb(65, 92, 67);
+}
+.all{
+    margin: 15px 0;
+    text-align: center;
+}
+.main{
+    margin: 70px 15px;
+}
+.recruting{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.recrutingClosed{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.cats{
+    width: 40%;
+    margin:0 10px 35px 10px;
+    padding: 20px;
+    background-color: rgb(247, 255, 254);
+    border: solid 1px rgb(85, 171, 123);
+    box-shadow:10px 10px 0 aquamarine;
+    transition: all 0.5s;
+    box-sizing: border-box;
+}
+.cats:hover{
+    box-shadow:10px 10px 10px rgb(167, 255, 255);
+    transition: all 0.6s;
+}
+.cats img{
+    width: 60%;
+    border-radius: 8px;
+}
+button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(0, 157, 255);
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+button:hover{
+    transform: scale(1.05);
+    transition:all 0.6s;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 5px;
+}
